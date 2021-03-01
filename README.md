@@ -3,6 +3,7 @@ This program allows the user to create vehicle objects, such as cars, motocycles
 ## Motivation
 This project was created as a way for me to practice object oriented programming in C++. In this project in particular, I learned how to properly utilize inheritance in my classes.
 ## Features
+- Creating vehicles of your choice (cars, motorcycles, trucks, and buses)
 - Adding and removing vehicles
 - Swapping out a vehicle in the garage for a new one that is not in the garage
 - Checking if garage is full
