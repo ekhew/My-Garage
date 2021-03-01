@@ -1,5 +1,5 @@
-#ifndef VEHICLE_
-#define VEHICLE_
+#ifndef VEHICLE_H_
+#define VEHICLE_H_
 
 #include <iostream>
 #include <string>

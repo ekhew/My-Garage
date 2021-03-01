@@ -83,7 +83,7 @@ int main()
 	/*
 		My Garage
 	*/
-	Garage myGarage(12); //with specified parameter, garage will be of the specified size
+	Garage myGarage(20); //with specified parameter, garage will be of the specified size
 	//Garage myGarage; //no parameter, so default parameter called, default garage size is 12
 
 	cout << "Garage: " << endl;
@@ -94,35 +94,18 @@ int main()
 	myGarage.addVehicle(myMotor);
 	myGarage.addVehicle(myCar2);
 	myGarage.addVehicle(myMotor2);
-	//myGarage.addVehicle(myCar3);
-	myGarage.swapVehicles(myCar3, myCar);
+	myGarage.addVehicle(myCar3);
 	//myGarage.removeVehicle(myBus);
 	//myGarage.removeVehicle(myCar3);
+	//myGarage.swapVehicles(myCar3, myCar);
 
 	cout << "   Capacity Occupied: " << myGarage.getNumVehicles() << endl << endl;
+	myGarage.display();
 
+    /*
 	for(int i = 0; i < myGarage.getGarageCapacity(); i++)
 	{
 		cout << "   Slot " << i + 1 << ": " << myGarage.arr_[i].getName() << endl;
 	}
-
-	//myGarage.display();
+    */
 }
-
-
-
-/*	GETTERS:
-	double getTopSpeed() const;          // returns top_speed_
- 	size_t getWheels() const;            // returns wheels_
-    double getWeight() const;            // returns weight_
-    double getMilesPerGallon() const;    // returns milesPerGallon_
-    size_t getGaragePositions() const;   // returns garagePositions_
-    double getDistanceTraveled() const;  // returns distance_traveled_
-    double getCurrentAmountGas() const;  // return how much gas we currently have
-    std::string getName() const;         // returns name_
-    std::string getManufacturer() const; // returns manufacturer_
-    void turn(float degrees);            // adds to current direction
-    std::string getDirection();          // gets current direction of vehicle based on degrees
-    const size_t getSpaces() const;      // returns garage_spaces_
-    const size_t getNumWheels() const;   // sets the number of wheels the vehicle has
-*/
