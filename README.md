@@ -1,7 +1,7 @@
 # My Garage
 This program allows the user to create vehicle objects, such as cars, motocycles, and trucks, and then store them in a garage array.
 ## Motivation
-This project was created as a way for me to practice object oriented programming in C++. 
+This project was created as a way for me to practice object oriented programming in C++. In this project in particular, I learned how to properly utilize inheritance for my classes.
 ## Features
 - Adding and removing vehicles
 - Swapping out a vehicle in the garage for a new one that is not in the garage
